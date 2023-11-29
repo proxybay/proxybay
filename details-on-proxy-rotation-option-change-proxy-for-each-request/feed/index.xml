@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Details on Proxy Rotation (option &#8220;Change proxy for each request&#8221;)	</title>
+	<atom:link href="/details-on-proxy-rotation-option-change-proxy-for-each-request/feed/" rel="self" type="application/rss+xml" />
+	<link>/details-on-proxy-rotation-option-change-proxy-for-each-request/</link>
+	<description></description>
+	<lastBuildDate>Tue, 28 Nov 2023 22:35:27 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
+</channel>
+</rss>
