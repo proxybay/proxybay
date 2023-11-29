@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Uncategorized &#8211; ProxyBay.GitHub.Io</title>
+	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 28 Nov 2023 22:38:28 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
+	<item>
+		<title>Anonymity and Paypal (and other online businesses)</title>
+		<link>/anonymity-and-paypal-and-other-online-businesses/</link>
+					<comments>/anonymity-and-paypal-and-other-online-businesses/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Tue, 28 Nov 2023 22:38:28 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=99</guid>
+
+					<description><![CDATA[Q. I&#8217;m hoping your Anonymity 4 Proxy product can help me. I am a US citizen / resident, but I am often outside of the US doing business (I&#8217;m a project director for an international company). I have an account with Paypal as I buy products on ebay. When utilizing my Paypal account from countries [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Q. I&#8217;m hoping your Anonymity 4 Proxy product can help me. I am a US citizen / resident, but I am often outside of the US doing business (I&#8217;m a project director for an international company). I have an account with Paypal as I buy products on ebay. When utilizing my Paypal account from countries that are not on Paypal&#8217;s country list, a red flag comes up in their security system (I suspect they &#8220;read&#8221; that my IP address is from outside of the US and that I&#8217;m logging in away from my home adress). My question &#8211; &#8211; Paypal has a secure setting protocol that reads IP addresses and ?. Do you think your product would be useful to me? Would Paypal know that I am using anonymizing software program?</p>
+<p>Although A4Proxy might be able to do it, I would recommend against even trying it. You see, the technology behind A4Proxy involves using free anonymous proxy servers. Although technically they&#8217;ll do exactly what you are asking about: they will make it appear that you are connecting from UK or USA etc &#8211; i.e. from the country where the proxy itself is located,- BUT there is a very important disadvantage: on-line shops and money-related services like Paypal dislike anonymous proxies a great deal, since their use is often connected with online fraud.</p>
+<p>So if paypal finds out that you are using a proxy to fool their logon system into allowing you in, you are quite likely to find your paypal account closed. If I&#8217;m not mistaken, they clearly state in the user agreement that you can&#8217;t connect from an anonymous proxy.</p>
+<p>Instead, you can use a modem to dial an ISP in some other country, e.g. USA, and connect to the Internet via that foreign ISP. The connection will probably be rather slow, and certainly quite expensive, but on the other hand you won&#8217;t be breaking PayPal agreement, and you&#8217;ll have a totally legitimate IP address belonging to the country where paypal expects you to be.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/anonymity-and-paypal-and-other-online-businesses/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Network Configuration Issues</title>
+		<link>/network-configuration-issues/</link>
+					<comments>/network-configuration-issues/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Tue, 28 Nov 2023 22:38:03 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=98</guid>
+
+					<description><![CDATA[I have installed A4Proxy in my machine which has an internet connection. Say the ip address is 127.0.0.1 and the port is 80. I am unable access the net from a different machine using the above address. Let me know if I need to some setting. Only one machine &#8211; the one on which A4Proxy [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I have installed A4Proxy in my machine which has an internet connection. Say the ip address is 127.0.0.1 and the port is 80. I am unable access the net from a different machine using the above address. Let me know if I need to some setting.</p>
+<p>Only one machine &#8211; the one on which A4Proxy is installed &#8211; can use the address 127.0.0.1 All other network computers that will be using A4Proxy must use the address of the server machine, the one which is connected to the Internet and on which A4Proxy is installed.</p>
+<p>Here&#8217;s how to set it all up:</p>
+<p>Install A4Proxy on the machine connected to the Internet. This will be the server.<br />
+On this server machine, run utility WinIPCFG.exe (located in the Windows folder; just select Run from the Start menu, and type in the name of the utility).<br />
+In the drop-down list choose the string reading something like &#8220;&#8230;PCI Ethernet Adapter&#8221; &#8211; NOT &#8220;PPP adapter&#8221;, because you will need the address of your network adapter card<br />
+In the &#8220;IP Address&#8221; field will be the address of your anonymous Internet server &#8211; that is the network address of the machine connected to the Internet. Write it on a piece of paper.<br />
+You must use this address in the appropriate Proxy Settings in the browsers on the network computers that will be using the Internet via A4Proxy.<br />
+After you set up your client computers, you will need to include their IP addresses in the CLIENT Allowed List on the Associations and Stop Lists tab: for security reasons, computers that are not on the Allowed List are denied access to A4Proxy.<br />
+ Will A4Proxy make me invisible to my provider?</p>
+<p>A4Proxy hides your IP address and other information about your computer from the sites you are visiting but it doesn&#8217;t encrypt information sent from your machine, so the provider may still be able to see what sites interest you.</p>
+<p> In Saudi Arabia, we are all behind Fire wall, that restrict the free browsing of the WWW, can your product over ride this issue?</p>
+<p>No, A4Proxy cannot override restrictions or help you to get access to the websites banned by the authorities.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/network-configuration-issues/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Running two copies of A4Proxy simultaneously on the same computer</title>
+		<link>/running-two-copies-of-a4proxy-simultaneously-on-the-same-computer/</link>
+					<comments>/running-two-copies-of-a4proxy-simultaneously-on-the-same-computer/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Tue, 28 Nov 2023 22:37:50 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=97</guid>
+
+					<description><![CDATA[You can run more than one copy of A4Proxy simultaneously on the same computer. It may be very useful if you run different browsers at the same time (e.g. Internet Explorer and Netscape), or a browser and a download manager, and would like them to use different A4Proxy settings. You can start two different copies [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>You can run more than one copy of A4Proxy simultaneously on the same computer. It may be very useful if you run different browsers at the same time (e.g. Internet Explorer and Netscape), or a browser and a download manager, and would like them to use different A4Proxy settings.</p>
+<p>You can start two different copies of A4Proxy, configure them to use different Browser Ports (Proxy Options tab) &#8211; the ports used for communication with the browser, configure the two browsers correspondingly (127.0.0.1:[Browser Port]) &#8211; and now you can use your two browsers with completely different settings of A4Proxy.</p>
+<p>The best way to do this is actually make another copy of the A4Proxy folder and start the second copy of a4proxy.exe from there, rather than launching the same physical .exe file second time. This way the two copies will run completely independently from each other and will be able to save their own settings.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/running-two-copies-of-a4proxy-simultaneously-on-the-same-computer/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Email Software and Newsreaders</title>
+		<link>/email-software-and-newsreaders/</link>
+					<comments>/email-software-and-newsreaders/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Tue, 28 Nov 2023 22:37:29 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=107</guid>
+
+					<description><![CDATA[A4Proxy doesn&#8217;t work with ordinary e-mail software clients like Outlook and Eudora. You can use it only with your web browser or download manager like GetRight. However, you can still send e-mail anonymously using web-based e-mail services like HotMail.com. When you connect to their web interface through A4Proxy and send e-mail using their web-forms, your [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>A4Proxy doesn&#8217;t work with ordinary e-mail software clients like Outlook and Eudora. You can use it only with your web browser or download manager like GetRight. However, you can still send e-mail anonymously using web-based e-mail services like HotMail.com. When you connect to their web interface through A4Proxy and send e-mail using their web-forms, your IP address is hidden from them and it is not present in the e-mails you send. You can easily test it by sending an email to yourself and looking at the headers of the message when it arrives.</p>
+<p>The situation is the same with newsgroups. You can&#8217;t use A4Proxy with an ordinary newsreader, but you can read and post messages anonymously with a web-based news service, like Google Groups. As long as you use A4Proxy and the web interface of the Google service, you are anonymous.</p>
+<p>A4Proxy doesn&#8217;t work with IRC or ICQ.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/email-software-and-newsreaders/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Chaining A4Proxy with AdSubtract, Junkbuster etc.</title>
+		<link>/chaining-a4proxy-with-adsubtract-junkbuster-etc/</link>
+					<comments>/chaining-a4proxy-with-adsubtract-junkbuster-etc/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Tue, 28 Nov 2023 22:37:18 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=96</guid>
+
+					<description><![CDATA[You can easily use A4Proxy with other local proxy programs, like AdSubtract, Webwasher, Proxomitron, Junkbuster etc. The idea is to form a &#8220;chain&#8221;, where your browser first connects to that other local proxy server, and then that program connects to A4Proxy. From the point of view of A4Proxy, there will be no difference, it won&#8217;t [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>You can easily use A4Proxy with other local proxy programs, like AdSubtract, Webwasher, Proxomitron, Junkbuster etc. The idea is to form a &#8220;chain&#8221;, where your browser first connects to that other local proxy server, and then that program connects to A4Proxy. From the point of view of A4Proxy, there will be no difference, it won&#8217;t even &#8220;know&#8221; that there is another program between it and the web browser.</p>
+<p>See the examples for Webwasher and Proxomitron, and configure your programs in the same way.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/chaining-a4proxy-with-adsubtract-junkbuster-etc/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Chaining with Proxomitron</title>
+		<link>/chaining-with-proxomitron/</link>
+					<comments>/chaining-with-proxomitron/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Tue, 28 Nov 2023 22:37:06 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=95</guid>
+
+					<description><![CDATA[You can easily use A4Proxy with another local proxy program, like Proxomitron. The idea is to form a &#8220;chain&#8221;, where your browser first connects to that other local proxy program, and then that program connects to A4Proxy. From the point of view of A4Proxy, there will be no difference, it won&#8217;t even &#8220;know&#8221; that there [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>You can easily use A4Proxy with another local proxy program, like Proxomitron. The idea is to form a &#8220;chain&#8221;, where your browser first connects to that other local proxy program, and then that program connects to A4Proxy. From the point of view of A4Proxy, there will be no difference, it won&#8217;t even &#8220;know&#8221; that there is another program between it and the web browser.</p>
+<p>Your will need to set up your browser to use Proxomitron (127.0.0.1 port 8080), and then to set up Proxomitron to use A4Proxy (127.0.0.1 port 80). This configuration is possible because Proxomitron allows you to use an &#8220;external proxy&#8221;, and you can use the A4Proxy program as this proxy.</p>
+<p>Configuration of the browser. A4Proxy supports three web communication A4Proxy supports three web communication protocols (HTTP, Secure HTTP and FTP), while Proxomitron supports only one (HTTP). This requires that you configure the browser in the following way: For HTTP protocol, enter 127.0.0.1 port 8080 (this will direct all HTTP requests to the Proxomitron program); For Secure HTTP and FTP, enter 127.0.0.1 port 80 (this will direct requests made with these protocols to A4Proxy)<br />
+Configuration of Proxomitron. Click its tray icon and choose Proxy button in the menu. Enter 127.0.0.1:80 in the dialog box. Minimize Proxomitron to the tray. Right-click Proxomitron tray icon. In the menu, mark the &#8220;Use remote proxy&#8221; option. When this option is selected, Proxomitron sends requests to A4Proxy; when it is not selected, A4Proxy is not used and you are not anonymous.<br />
+That&#8217;s all. After you set it up, look at the A4Proxy icon to see if it is really used: the icon must be flashing when you are surfing. Please note that with this configuration you will be able to &#8220;switch off&#8221; A4Proxy (that is, &#8220;switch off&#8221; the anonymity feature) in two different places: in WebWasher (the &#8220;Use a proxy server&#8221; option, when selected &#8211; you are anonymous) and in A4Proxy itself (&#8220;Direct Connection&#8221; option, when selected &#8211; you are NOT anonymous). Please don&#8217;t mix them up. The best way is to never use the option in WebWasher (always keep it selected) and use A4Proxy&#8217;s own settings to switch it on and off &#8211; the A4Proxy icon will change to indicate its current status.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/chaining-with-proxomitron/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Webwasher, AdSubtract, Proxomitron etc.</title>
+		<link>/webwasher-adsubtract-proxomitron-etc/</link>
+					<comments>/webwasher-adsubtract-proxomitron-etc/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Tue, 28 Nov 2023 22:36:53 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=94</guid>
+
+					<description><![CDATA[You can use A4Proxy with another local proxy program, like Webwasher or Proxomitron. The idea is to form a &#8220;chain&#8221;, where your browser first connects to that other local proxy server, and then that program connects to A4Proxy. From the point of view of A4Proxy, there will be no difference, it won&#8217;t even &#8220;know&#8221; that [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>You can use A4Proxy with another local proxy program, like Webwasher or Proxomitron. The idea is to form a &#8220;chain&#8221;, where your browser first connects to that other local proxy server, and then that program connects to A4Proxy. From the point of view of A4Proxy, there will be no difference, it won&#8217;t even &#8220;know&#8221; that there is another program between it and the web browser.</p>
+<p>Below is an example for Webwasher. Set up your browser to use WebWasher (127.0.0.1 port 8080), and then to set up WebWasher to use A4Proxy (127.0.0.1 port 80).</p>
+<p>Configuration of the browser. A4Proxy supports three web communication protocols (HTTP, Secure HTTP and FTP), while WebWasher supports only one (HTTP). This requires that you configure the browser in the following way: For HTTP protocol, enter 127.0.0.1 port 8080 (this will direct all HTTP requests to the WebWasher program); For Secure HTTP and FTP, enter 127.0.0.1 port 80 (this will direct requests made with these protocols to A4Proxy)<br />
+Configuration of WebWasher (v.2.1.1). Right-click its tray icon and choose Preferences in the menu On the left of the configuration panel that will appear, you will see a tree of available options. Open the top sub-tree called &#8220;Proxy Engine&#8221;, there are two options in that subtree: Client and Server. You should enable the &#8220;Client&#8221; option; when you select it, on the right part of the window some options will become available. You will need the top text box &#8220;HTTP 1&#8221;, titled &#8220;Address of proxy server to use&#8221;. Enter 127.0.0.1 there, and enter 80 in the Port text box on the right (this will make WebWasher to redirect all requests to A4Proxy program). Make sure that in the Proxy Type drop-down list below the setting of &#8220;CERN compatible (default)&#8221; is selected. Click OK. Right-click WebWasher icon again. In the menu, mark the &#8220;Use a proxy server&#8221; option. When this option is selected, WebWasher sends requests to A4Proxy; when it is not selected, A4Proxy is not used and you are not anonymous.<br />
+That&#8217;s all. After you set it up, look at A4Proxy icon to see if it is really used: the icon must be flashing when you are surfing. Please let me know if you have any difficulty. Please notice, that with this configuration you will be able to &#8220;switch off&#8221; A4Proxy program (that is, &#8220;switch off&#8221; the anonymity feature) in two different places: in WebWasher (the &#8220;Use a proxy server&#8221; option, when selected &#8211; you are anonymous) and in A4Proxy itself (&#8220;Direct Connection&#8221; option, when selected &#8211; you are NOT anonymous). Please don&#8217;t mix them up. The best way is to never use the option in WebWasher (always keep it selected) and use A4Proxy&#8217;s own settings to switch it on and off &#8211; the A4Proxy icon will change to indicate its current status.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/webwasher-adsubtract-proxomitron-etc/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Unable to logon to an FTP site</title>
+		<link>/unable-to-logon-to-an-ftp-site-2/</link>
+					<comments>/unable-to-logon-to-an-ftp-site-2/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Tue, 28 Nov 2023 22:36:32 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=93</guid>
+
+					<description><![CDATA[All proxy servers on the list are HTTP proxies, they do not support the full set of FTP commands. Besides, some of them do not support FTP at all. What it means for you: You cannot use traditional FTP clients (like CuteFTP) with A4Proxy, as all such programs expect a proxy server to support all [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>All proxy servers on the list are HTTP proxies, they do not support the full set of FTP commands. Besides, some of them do not support FTP at all. What it means for you:</p>
+<p>You cannot use traditional FTP clients (like CuteFTP) with A4Proxy, as all such programs expect a proxy server to support all FTP instructions</p>
+<p>You can download (not upload) files from ftp servers using either your browser or programs like ReGet, GetRight, which are aware of such proxy servers. In order to see if a particular proxy server supports this kind of FTP communications, look at the FTP column in the proxy list, proxies which support FTP have an X in this column Remember, in order to check this ability of proxies you must check them after selecting the Reset Data option on the Proxy check tab; the option &#8220;Check for FTP/HTTPS support on Reset Data&#8221; must be selected as well (Proxy options tab) If you need to provide your login/password, you can do it in the URL line, like that: ftp://login:passw@ftp.name.com</p>
+<p>If you need to upload something, you are limited to HTTP upload (that is, via a form in the browser &#8211; if the website you are uploading to provides this means of upload)</p>
+<p>Make sure that 127.0.0.1 port 80 stands for FTP in proxy settings in your browser.</p>
+<p>There is also a setting in IE which may require additional configuration. It is located on the Advanced tab in the Internet Options, and called &#8220;Launch browser windows in a separate process&#8221;. You must enable it. Now ftp requests will go through A4Proxy and you will see them on the Activity tab.</p>
+<p>The same option may also be called &#8220;Enable folder view for FTP-Sites&#8221; in IE 5.5.x (but not in all builds). The same setting may be called in some other ways in different versions. Experiment with it until you see some activity on the Proxy Activity tab in A4Proxy when visiting an FTP site.</p>
+<p>The thing is that IE is bound very closely to the whole operating system and sometimes it means that the browser has to ignore the proxy settings to operate normally. You can avoid this by installing a different, non-Microsoft browser, like Netscape or Opera or anything else, and using it to FTP.<br />
+Our new anonymity product, AntiFirewall, works with FTP without any limitations, and allows you to use any FTP client software like CuteFTP.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/unable-to-logon-to-an-ftp-site-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Side Effects on Some Programs</title>
+		<link>/side-effects-on-some-programs/</link>
+					<comments>/side-effects-on-some-programs/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Tue, 28 Nov 2023 22:36:21 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=92</guid>
+
+					<description><![CDATA[Almost none of my internet application work. My Outlook Express 6 does not work at all with the A4 on. and my Human Click which is a chat software through my website does not work at all neither when I have the proxy on. On the top of this, sometimes my computer starts in safe [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Almost none of my internet application work. My Outlook Express 6 does not work at all with the A4 on. and my Human Click which is a chat software through my website does not work at all neither when I have the proxy on. On the top of this, sometimes my computer starts in safe mode since I have installed the software and sometimes it does not shut down. I have to shut it off manually. Now, I used to work on a computer with the A4 installed on it and I never did have a problem. So I presume that it has to do something with the configuration I made to it.</p>
+<p>From the point of view of your computer, A4Proxy is something like a web browser actually. A4Proxy doesn&#8217;t change any hardware drivers, nor does it add its own. It doesn&#8217;t change any settings of any other software. All it requires is that you change the proxy settings in your browser to point to A4Proxy, i.e. to 127.0.0.1:80.</p>
+<p>However, if your main browser is Internet Explorer, it may have its complications: some programs use the IE engine to access the Internet so if those programs don&#8217;t like working through A4Proxy, they might fail.</p>
+<p>A solution could be to install a different web browser to use with A4Proxy, e.g. Opera or Netscape (there are hardly any third-party programs using those browsers&#8217; engines). Then you remove the A4Proxy settings from IE and use it for non-anonymous work and third-party programs.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/side-effects-on-some-programs/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Different Ways to Block Cookies</title>
+		<link>/different-ways-to-block-cookies/</link>
+					<comments>/different-ways-to-block-cookies/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Tue, 28 Nov 2023 22:35:37 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=77</guid>
+
+					<description><![CDATA[A4Proxy offers you two ways to block cookies: you can block both incoming and outgoing ones (i.e. all of them) with the option &#8220;Block All Cookies&#8221; on the Browser Options tab. However, it is also possible to block only outgoing cookies. This way the sites will &#8220;think&#8221; that cookies are enabled on your computer and [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>A4Proxy offers you two ways to block cookies: you can block both incoming and outgoing ones (i.e. all of them) with the option &#8220;Block All Cookies&#8221; on the Browser Options tab.</p>
+<p>However, it is also possible to block only outgoing cookies. This way the sites will &#8220;think&#8221; that cookies are enabled on your computer and will put their cookies and allow you to surf; however, they will not be able to get their cookie back and therefore will not be able to track you &#8211; you will be a &#8220;new user&#8221; every time they check it.</p>
+<p>In order to block outgoing cookies, you should enter &#8220;Cookie&#8221; (without quotes) in the Variable field on the Browser Options tab; the Replace With field should be empty. Click the Add button.</p>
+<p>Note that some sites (e.g. hotmail.com and similar services) will not be able to work with cookies blocked.</p>
+<p>Also note that some websites place cookies using Javascript programs embedded in the pages. A4Proxy cannot do anything about that in the current version, so you have to switch off Java/Javascript in your browser manually.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/different-ways-to-block-cookies/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
